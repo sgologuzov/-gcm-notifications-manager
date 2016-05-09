@@ -6,14 +6,9 @@
   <h1>Google Cloud Messaging Tokens</h1>
 
   {{> tokens}}
-  {{> total}}
 </body>
 
 
 <template name="tokens">
     {{> tabular table=TabularTables.Tokens class="table table-striped table-bordered table-condensed"}}
-</template>
-
-<template name="total">
-  <p>TOTAL: {{tokensCount}} tokens</p>
 </template>

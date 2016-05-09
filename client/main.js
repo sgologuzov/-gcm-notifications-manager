@@ -19,11 +19,3 @@ Template.tokens.events({
     instance.counter.set(instance.counter.get() + 1);
   },*/
 });
-
-Template.total.helpers({
-  tokensCount() {
-    console.log(Tokens);
-    return Tokens;
-  },
-});
-
