@@ -24,3 +24,5 @@ aldeed:tabular
 aldeed:simple-schema
 session
 twbs:bootstrap
+momentjs:moment
+erasaur:meteor-lodash
